@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "home": "હોમ",
+    "dashboard": "ડેશબોર્ડ",
+    "daily": "દૈનિક સારાંશ",
+    "crops": "પાક માહિતી",
+    "weather": "હવામાન અને સિંચાઈ",
+    "market": "બજારના ભાવો",
+    "monitoring": "ડ્રોન મોનિટરિંગ",
+    "alerts": "ચેતવણીઓ",
+    "reports": "રિપોર્ટ્સ",
+    "settings": "સેટિંગ્સ"
+  },
+  "home": {
+    "hero_title": "સ્માર્ટ ફાર્મિંગ,",
+    "hero_subtitle": "AI દ્વારા સંચાલિત",
+    "hero_desc": "રીઅલ-ટાઇમ પાક ભલામણો, હવામાન મુજબ સિંચાઈ, બજાર માહિતી અને આપત્તિ ચેતવણીઓ મેળવો.",
+    "select_state": "રાજ્ય પસંદ કરો",
+    "select_district": "જિલ્લો પસંદ કરો",
+    "get_insights": "માહિતી મેળવો",
+    "quick_actions": "ઝડપી ક્રિયાઓ",
+    "crop_advisory": "પાક સલાહ",
+    "irrigation_plan": "સિંચાઈ યોજના",
+    "market_prices": "બજારના ભાવો",
+    "weather_alert": "હવામાન ચેતવણી"
+  },
+  "dashboard": {
+    "title": "ફાર્મ ડેશબોર્ડ",
+    "subtitle": "તમારું ખેતર એક નજરમાં",
+    "weather": "હવામાન",
+    "market": "બજાર",
+    "alerts": "સક્રિય ચેતવણીઓ",
+    "water": "પાણી પુરવઠો",
+    "days_left": "દિવસો બાકી"
+  },
+  "weather": {
+    "title": "હવામાન અને સિંચાઈ",
+    "current": "વર્તમાન પરિસ્થિતિ",
+    "forecast": "5-દિવસની આગાહી",
+    "irrigation_plan": "સિંચાઈ યોજના",
+    "water_planner": "પાણી સંસાધન પ્લાનર",
+    "temp": "તાપમાન",
+    "humidity": "ભેજ",
+    "rainfall": "વરસાદ",
+    "wind": "પવનની ગતિ",
+    "irrigation_on": "સિંચાઈ ચાલુ",
+    "irrigation_off": "સિંચાઈ બંધ",
+    "irrigation_reduced": "ઓછી સિંચાઈ",
+    "pond": "તળાવ",
+    "borewell": "બોરવેલ",
+    "rainwater": "વરસાદના પાણી",
+    "total_water": "કુલ ઉપલબ્ધ",
+    "daily_usage": "દૈનિક વપરાશ",
+    "days_remaining": "બાકીના દિવસો",
+    "add_source": "પાણીનો સ્ત્રોત ઉમેરો"
+  },
+  "market": {
+    "title": "બજાર માહિતી",
+    "nearby": "નજીકના બજારો (મંડી)",
+    "price": "ભાવ (₹/ક્વિન્ટલ)",
+    "trend": "વલણ",
+    "best_market": "વેચવા માટે શ્રેષ્ઠ બજાર",
+    "compare": "કિંમત સરખામણી",
+    "prediction": "કિંમત આગાહી",
+    "recommendation": "અમારી ભલામણ"
+  },
+  "crops": {
+    "title": "પાક માહિતી",
+    "recommend": "AI પાક ભલામણ",
+    "soil_type": "જમીનનો પ્રકાર",
+    "season": "ઋતુ",
+    "water_req": "પાણીની જરૂરિયાત",
+    "yield_expected": "અપેક્ષિત ઉપજ",
+    "confidence": "વિશ્વાસ",
+    "market_demand": "બજારની માંગ"
+  },
+  "monitoring": {
+    "title": "ડ્રોન મોનિટરિંગ",
+    "active": "સક્રિય",
+    "idle": "નિષ્ક્રિય",
+    "charging": "ચાર્જિંગ",
+    "battery": "બેટરી",
+    "health_index": "પાક આરોગ્ય સૂચકાંક",
+    "coverage": "કવરેજ વિસ્તાર",
+    "last_mission": "છેલ્લું મિશન",
+    "dispatch": "ડ્રોન મોકલો",
+    "recall": "પાછું બોલાવો"
+  },
+  "alerts": {
+    "title": "આપત્તિ ચેતવણીઓ",
+    "flood": "પૂરની ચેતવણી",
+    "drought": "દુષ્કાળ ચેતવણી",
+    "storm": "વાવાઝોડાની ચેતવણી",
+    "pest": "જીવાતનો હુમલો",
+    "frost": "હિમ ચેતવણી",
+    "heat": "હીટ વેવ",
+    "no_alerts": "કોઈ સક્રિય ચેતવણીઓ નથી",
+    "issued": "ઇશ્યૂ કર્યું",
+    "expires": "સમાપ્ત થાય છે",
+    "action": "જરૂરી પગલાં"
+  },
+  "reports": {
+    "title": "રિપોર્ટ્સ અને આંકડાકીય",
+    "yield": "ઉપજ વિશ્લેષણ",
+    "water_usage": "પાણીનો વપરાશ",
+    "market_trends": "બજારના વલણો",
+    "download": "રિપોર્ટ ડાઉનલોડ કરો"
+  },
+  "settings": {
+    "title": "સેટિંગ્સ",
+    "language": "ભાષા",
+    "location": "સ્થાન",
+    "notifications": "સૂચનાઓ",
+    "farm_profile": "ફાર્મ પ્રોફાઇલ",
+    "save": "ફેરફારો સેવ કરો",
+    "saved": "ફેરફારો સેવ થયા!"
+  },
+  "common": {
+    "loading": "લોડ થઈ રહ્યું છે...",
+    "error": "કંઈક ખોટું થયું",
+    "retry": "ફરી પ્રયાસ કરો",
+    "close": "બંધ કરો",
+    "save": "સેવ કરો",
+    "cancel": "રદ કરો",
+    "submit": "સબમિટ કરો",
+    "back": "પાછળ",
+    "next": "આગળ",
+    "days": "દિવસો",
+    "liters": "લિટર",
+    "acres": "એકર",
+    "quintals": "ક્વિન્ટલ"
+  },
+  "chatbot": {
+    "title": "એગ્રીબોટ",
+    "placeholder": "પાક, હવામાન, બજાર વિશે પૂછો...",
+    "send": "મોકલો",
+    "greeting": "નમસ્તે! હું AgriBot છું 🌱 ખેતી વિશે કંઈ પણ પૂછો!"
+  }
+}

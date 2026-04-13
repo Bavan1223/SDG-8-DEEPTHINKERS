@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "home": "होम",
+    "dashboard": "डैशबोर्ड",
+    "daily": "दैनिक सारांश",
+    "crops": "फसल जानकारी",
+    "weather": "मौसम और सिंचाई",
+    "market": "बाज़ार विश्लेषण",
+    "monitoring": "ड्रोन निगरानी",
+    "alerts": "चेतावनियाँ",
+    "reports": "रिपोर्ट",
+    "settings": "सेटिंग्स"
+  },
+  "home": {
+    "hero_title": "स्मार्ट खेती,",
+    "hero_subtitle": "AI द्वारा संचालित",
+    "hero_desc": "वास्तविक समय में फसल सिफारिशें, मौसम-आधारित सिंचाई, बाज़ार विश्लेषण और आपदा चेतावनियाँ — सब एक जगह।",
+    "select_state": "राज्य चुनें",
+    "select_district": "जिला चुनें",
+    "get_insights": "खेत की जानकारी पाएं",
+    "quick_actions": "त्वरित क्रियाएं",
+    "crop_advisory": "फसल सलाह",
+    "irrigation_plan": "सिंचाई योजना",
+    "market_prices": "बाज़ार भाव",
+    "weather_alert": "मौसम चेतावनी"
+  },
+  "dashboard": {
+    "title": "खेत डैशबोर्ड",
+    "subtitle": "आपकी खेती का सारांश",
+    "weather": "मौसम",
+    "market": "बाज़ार",
+    "alerts": "सक्रिय चेतावनियाँ",
+    "water": "जल आपूर्ति",
+    "days_left": "दिन शेष"
+  },
+  "weather": {
+    "title": "मौसम और सिंचाई",
+    "current": "वर्तमान स्थिति",
+    "forecast": "5-दिन का पूर्वानुमान",
+    "irrigation_plan": "सिंचाई योजना",
+    "water_planner": "जल संसाधन योजना",
+    "temp": "तापमान",
+    "humidity": "आर्द्रता",
+    "rainfall": "वर्षा",
+    "wind": "पवन गति",
+    "irrigation_on": "सिंचाई चालू",
+    "irrigation_off": "सिंचाई बंद",
+    "irrigation_reduced": "कम सिंचाई",
+    "pond": "तालाब",
+    "borewell": "बोरवेल",
+    "rainwater": "बारिश का पानी",
+    "total_water": "कुल उपलब्ध",
+    "daily_usage": "दैनिक फसल उपयोग",
+    "days_remaining": "शेष दिन",
+    "add_source": "जल स्रोत जोड़ें"
+  },
+  "market": {
+    "title": "बाज़ार विश्लेषण",
+    "nearby": "नजदीकी मंडियाँ",
+    "price": "मूल्य (₹/क्विंटल)",
+    "trend": "रुझान",
+    "best_market": "बेचने के लिए सर्वश्रेष्ठ मंडी",
+    "compare": "मूल्य तुलना",
+    "prediction": "मूल्य अनुमान",
+    "recommendation": "हमारी सिफारिश"
+  },
+  "crops": {
+    "title": "फसल जानकारी",
+    "recommend": "AI फसल सिफारिश",
+    "soil_type": "मिट्टी का प्रकार",
+    "season": "मौसम",
+    "water_req": "जल आवश्यकता",
+    "yield_expected": "अपेक्षित उपज",
+    "confidence": "विश्वास",
+    "market_demand": "बाज़ार मांग"
+  },
+  "monitoring": {
+    "title": "ड्रोन निगरानी",
+    "active": "सक्रिय",
+    "idle": "निष्क्रिय",
+    "charging": "चार्जिंग",
+    "battery": "बैटरी",
+    "health_index": "फसल स्वास्थ्य सूचकांक",
+    "coverage": "कवरेज क्षेत्र",
+    "last_mission": "अंतिम मिशन",
+    "dispatch": "ड्रोन भेजें",
+    "recall": "वापस बुलाएं"
+  },
+  "alerts": {
+    "title": "आपदा चेतावनियाँ",
+    "flood": "बाढ़ चेतावनी",
+    "drought": "सूखा चेतावनी",
+    "storm": "तूफान चेतावनी",
+    "pest": "कीट हमला",
+    "frost": "पाला चेतावनी",
+    "heat": "लू चेतावनी",
+    "no_alerts": "कोई सक्रिय चेतावनी नहीं",
+    "issued": "जारी किया गया",
+    "expires": "समाप्ति",
+    "action": "आवश्यक कार्रवाई"
+  },
+  "reports": {
+    "title": "रिपोर्ट और विश्लेषण",
+    "yield": "उपज विश्लेषण",
+    "water_usage": "जल उपयोग",
+    "market_trends": "बाज़ार रुझान",
+    "download": "रिपोर्ट डाउनलोड करें"
+  },
+  "settings": {
+    "title": "सेटिंग्स",
+    "language": "भाषा",
+    "location": "स्थान प्राथमिकताएं",
+    "notifications": "सूचनाएं",
+    "farm_profile": "खेत प्रोफ़ाइल",
+    "save": "परिवर्तन सहेजें",
+    "saved": "परिवर्तन सहेजे गए!"
+  },
+  "common": {
+    "loading": "लोड हो रहा है…",
+    "error": "कुछ गलत हो गया",
+    "retry": "पुनः प्रयास",
+    "close": "बंद करें",
+    "save": "सहेजें",
+    "cancel": "रद्द करें",
+    "submit": "सबमिट करें",
+    "back": "वापस",
+    "next": "अगला",
+    "days": "दिन",
+    "liters": "लीटर",
+    "acres": "एकड़",
+    "quintals": "क्विंटल"
+  },
+  "chatbot": {
+    "title": "एग्रीबॉट",
+    "placeholder": "फसल, मौसम, बाज़ार के बारे में पूछें…",
+    "send": "भेजें",
+    "greeting": "नमस्ते! मैं AgriBot हूँ 🌱 खेती, फसल सिफारिश, मौसम या बाज़ार भाव के बारे में कुछ भी पूछें!"
+  }
+}

@@ -1,0 +1,276 @@
+/* ============================================================
+   AgriAgent – Global CSS
+   Design tokens, utility overrides, scrollbar, animations
+   ============================================================ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Google Fonts ──────────────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');
+
+/* ── Root & Body ───────────────────────────────────────────── */
+:root {
+  --color-bg:        #0f1a0f;
+  --color-card:      #1a2a1a;
+  --color-border:    #2d4a2d;
+  --color-primary:   #22c55e;
+  --color-accent:    #f59e0b;
+  --color-sky:       #0ea5e9;
+  --color-text:      #e2e8f0;
+  --color-muted:     #94a3b8;
+  --sidebar-width:   260px;
+  --navbar-height:   64px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Inter', system-ui, sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: var(--color-bg);
+  overflow-x: hidden;
+}
+
+/* ── Scrollbar ──────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--color-card); }
+::-webkit-scrollbar-thumb { background: var(--color-border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--color-primary); }
+
+/* ── Typography ─────────────────────────────────────────────── */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+}
+
+/* ── Glass Card Utility ─────────────────────────────────────── */
+@layer components {
+  .glass-card {
+    @apply bg-surface-card border border-surface-border rounded-2xl;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+
+  .btn-primary {
+    @apply bg-primary-600 hover:bg-primary-500 text-white font-semibold px-5 py-2.5 rounded-xl
+           transition-all duration-200 shadow-lg shadow-primary-900/30 active:scale-95;
+  }
+
+  .btn-secondary {
+    @apply bg-surface-card border border-surface-border hover:border-primary-500
+           text-white font-medium px-5 py-2.5 rounded-xl transition-all duration-200 active:scale-95;
+  }
+
+  .btn-accent {
+    @apply bg-accent-500 hover:bg-accent-400 text-white font-semibold px-5 py-2.5 rounded-xl
+           transition-all duration-200 shadow-lg shadow-accent-900/20 active:scale-95;
+  }
+
+  .input-field {
+    @apply bg-surface-card border border-surface-border text-white placeholder-slate-500
+           rounded-xl px-4 py-2.5 w-full outline-none transition-all duration-200
+           focus:border-primary-500 focus:ring-2 focus:ring-primary-500/20;
+  }
+
+  .select-field {
+    @apply input-field cursor-pointer appearance-none;
+  }
+
+  .badge-green  { @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-primary-900 text-primary-300; }
+  .badge-yellow { @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-accent-900 text-accent-300; }
+  .badge-red    { @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-red-900 text-red-300; }
+  .badge-blue   { @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-sky-900 text-sky-400; }
+
+  /* Status indicator dot */
+  .status-dot {
+    @apply w-2 h-2 rounded-full;
+  }
+
+  /* Page wrapper with sidebar offset */
+  .page-wrapper {
+    @apply ml-0 md:ml-64 pt-16 min-h-screen p-4 md:p-8;
+  }
+}
+
+/* ── Gradient Text ──────────────────────────────────────────── */
+.gradient-text {
+  background: linear-gradient(135deg, #22c55e 0%, #16a34a 40%, #0ea5e9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ── Recharts overrides ─────────────────────────────────────── */
+.recharts-cartesian-grid-horizontal line,
+.recharts-cartesian-grid-vertical line {
+  stroke: var(--color-border) !important;
+  stroke-opacity: 0.5;
+}
+.recharts-text { fill: var(--color-muted) !important; font-size: 12px; }
+.recharts-legend-item-text { color: var(--color-muted) !important; }
+.recharts-tooltip-wrapper .recharts-default-tooltip {
+  background: var(--color-card) !important;
+  border: 1px solid var(--color-border) !important;
+  border-radius: 12px !important;
+  color: var(--color-text) !important;
+}
+
+/* ── Alert system colors ────────────────────────────────────── */
+.alert-flood  { @apply border-l-4 border-sky-500 bg-sky-950/40; }
+.alert-drought{ @apply border-l-4 border-orange-500 bg-orange-950/40; }
+.alert-storm  { @apply border-l-4 border-yellow-500 bg-yellow-950/40; }
+.alert-pest   { @apply border-l-4 border-red-500 bg-red-950/40; }
+.alert-frost  { @apply border-l-4 border-blue-500 bg-blue-950/40; }
+
+/* ── Animations ─────────────────────────────────────────────── */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-8px); }
+}
+
+.animate-float { animation: float 4s ease-in-out infinite; }
+
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position:  200% 0; }
+}
+
+.skeleton {
+  background: linear-gradient(90deg, var(--color-card) 25%, var(--color-border) 50%, var(--color-card) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 8px;
+}
+
+/* ── Print Styles ───────────────────────────────────────────── */
+@media print {
+  /* Force white background for readability */
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+    box-shadow: none !important;
+  }
+
+  html, body {
+    background: #fff !important;
+    color: #111 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    overflow: visible !important;
+    height: auto !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Hide all navigation chrome */
+  header, aside, nav, .sidebar,
+  [class*="sidebar"], [class*="nav"],
+  #download-report-btn,
+  #open-chat-btn,
+  button:not([data-print]) {
+    display: none !important;
+  }
+
+  /* Reset all layout containers so nothing clips */
+  #root, main, [class*="layout"], [class*="content"],
+  [class*="wrapper"], [class*="container"],
+  [class*="scroll"], [class*="overflow"] {
+    display: block !important;
+    overflow: visible !important;
+    height: auto !important;
+    max-height: none !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: static !important;
+    transform: none !important;
+    border: none !important;
+    background: transparent !important;
+  }
+
+  /* Make the report content itself print nicely */
+  .animate-fade-in, .animate-slide-up {
+    opacity: 1 !important;
+  }
+
+  /* Cards — give them a visible border on paper */
+  .glass-card, [class*="glass"] {
+    background: #f9f9f9 !important;
+    border: 1px solid #ccc !important;
+    border-radius: 4px !important;
+    color: #111 !important;
+    overflow: visible !important;
+    page-break-inside: avoid;
+    margin-bottom: 12px !important;
+  }
+
+  /* Text colours */
+  h1, h2, h3, h4, p, span, td, th, label {
+    color: #111 !important;
+  }
+
+  .text-slate-400, .text-slate-300, .text-slate-500 {
+    color: #555 !important;
+  }
+
+  .text-white {
+    color: #111 !important;
+  }
+
+  .text-primary-400, .text-primary-300 {
+    color: #1a7a4a !important;
+  }
+
+  /* Tables */
+  table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+  }
+
+  th, td {
+    border: 1px solid #ddd !important;
+    padding: 6px 10px !important;
+    color: #111 !important;
+  }
+
+  thead tr {
+    background: #e8f5e9 !important;
+  }
+
+  /* Charts — ensure SVG elements are visible */
+  svg, canvas, [class*="recharts"] {
+    overflow: visible !important;
+    max-width: 100% !important;
+  }
+
+  /* Grid layouts */
+  .grid {
+    display: grid !important;
+  }
+
+  /* Page breaks */
+  .glass-card, section {
+    page-break-inside: avoid;
+  }
+
+  /* Badges / pills */
+  [class*="rounded-full"] {
+    background: #e8f5e9 !important;
+    color: #1a7a4a !important;
+  }
+}
+

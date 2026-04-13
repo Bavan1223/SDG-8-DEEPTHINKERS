@@ -1,0 +1,71 @@
+{
+  "users": [
+    {
+      "uid": "demo-user-001",
+      "email": "farmer@agriagent.demo",
+      "displayName": "Ramesh Kumar",
+      "language": "kn",
+      "location": { "state": "Karnataka", "district": "Mysuru" },
+      "createdAt": "2025-04-01T00:00:00Z",
+      "lastLoginAt": "2025-04-11T06:00:00Z"
+    }
+  ],
+  "farms": [
+    {
+      "id": "farm-001",
+      "userId": "demo-user-001",
+      "name": "Ramesh's Farm – Field A",
+      "landAreaAcres": 5.5,
+      "cropType": "rice",
+      "soilType": "alluvial",
+      "season": "kharif",
+      "irrigationMethod": "flood",
+      "waterSources": [
+        { "sourceType": "borewell",  "capacityLiters": 150000, "currentLevelLiters": 120000, "fillRatePerDay": 200 },
+        { "sourceType": "pond",      "capacityLiters": 200000, "currentLevelLiters": 80000,  "fillRatePerDay": 500 },
+        { "sourceType": "rainwater", "capacityLiters": 50000,  "currentLevelLiters": 20000,  "fillRatePerDay": 300 }
+      ],
+      "location": { "state": "Karnataka", "district": "Mysuru", "lat": 12.2958, "lng": 76.6394 }
+    }
+  ],
+  "alerts": [
+    {
+      "id": "alert-001",
+      "type": "storm",
+      "severity": "medium",
+      "title": "Storm Advisory",
+      "description": "Strong westerly winds (40–55 km/h) expected on Wednesday.",
+      "affectedState": "Karnataka",
+      "affectedDistrict": "Mysuru",
+      "issuedAt": "2025-04-11T04:00:00Z",
+      "expiresAt": "2025-04-13T04:00:00Z",
+      "actionRequired": "Secure farm equipment and apply anti-lodging spray on wheat.",
+      "source": "rule-engine"
+    },
+    {
+      "id": "alert-002",
+      "type": "pest",
+      "severity": "low",
+      "title": "Locust Watch",
+      "description": "Low-density locust movement observed in northern Karnataka.",
+      "affectedState": "Karnataka",
+      "affectedDistrict": "",
+      "issuedAt": "2025-04-10T08:00:00Z",
+      "expiresAt": null,
+      "actionRequired": "Monitor crops daily. Apply chlorpyrifos if infestation detected.",
+      "source": "IMD"
+    }
+  ],
+  "marketSnapshots": [
+    { "id": "ms-001", "market": "Mysore APMC",  "district": "Mysuru",  "state": "Karnataka", "crop": "Tomato",    "price": 2800, "minPrice": 2400, "maxPrice": 3200, "unit": "quintal", "date": "2025-04-11T00:00:00Z", "trend": "up",     "changePercent": 5.2  },
+    { "id": "ms-002", "market": "Mandya Mandi", "district": "Mandya",  "state": "Karnataka", "crop": "Tomato",    "price": 2650, "minPrice": 2300, "maxPrice": 2900, "unit": "quintal", "date": "2025-04-11T00:00:00Z", "trend": "stable", "changePercent": 0.3  },
+    { "id": "ms-003", "market": "Hassan APMC",  "district": "Hassan",  "state": "Karnataka", "crop": "Tomato",    "price": 2720, "minPrice": 2500, "maxPrice": 3000, "unit": "quintal", "date": "2025-04-11T00:00:00Z", "trend": "up",     "changePercent": 2.1  },
+    { "id": "ms-004", "market": "Mysore APMC",  "district": "Mysuru",  "state": "Karnataka", "crop": "Rice",      "price": 1900, "minPrice": 1700, "maxPrice": 2100, "unit": "quintal", "date": "2025-04-11T00:00:00Z", "trend": "stable", "changePercent": 0.5  },
+    { "id": "ms-005", "market": "Mandya Mandi", "district": "Mandya",  "state": "Karnataka", "crop": "Sugarcane", "price": 3200, "minPrice": 3000, "maxPrice": 3400, "unit": "quintal", "date": "2025-04-11T00:00:00Z", "trend": "up",     "changePercent": 1.8  }
+  ],
+  "droneData": [
+    { "id": "d1", "name": "DJI Agras T40 #1", "status": "active",   "batteryPercent": 78, "farmId": "farm-001", "location": { "lat": 12.295, "lng": 76.639 }, "altitude": 25, "cropHealthIndex": 85, "coverageAreaHa": 3.2 },
+    { "id": "d2", "name": "DJI Agras T40 #2", "status": "idle",     "batteryPercent": 95, "farmId": "farm-001", "location": { "lat": 12.310, "lng": 76.655 }, "altitude": 0,  "cropHealthIndex": 92, "coverageAreaHa": 5.1 },
+    { "id": "d3", "name": "DJI Phantom #1",   "status": "charging", "batteryPercent": 23, "farmId": "farm-001", "location": { "lat": 12.285, "lng": 76.620 }, "altitude": 0,  "cropHealthIndex": 78, "coverageAreaHa": 1.8 }
+  ]
+}

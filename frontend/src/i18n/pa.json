@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "home": "ਮੁੱਖ ਪੰਨਾ",
+    "dashboard": "ਡੈਸ਼ਬੋਰਡ",
+    "daily": "ਰੋਜ਼ਾਨਾ ਸੰਖੇਪ",
+    "crops": "ਫਸਲ ਬਾਰੇ ਜਾਣਕਾਰੀ",
+    "weather": "ਮੌਸਮ ਅਤੇ ਸਿੰਚਾਈ",
+    "market": "ਮੰਡੀ ਦੇ ਭਾਅ",
+    "monitoring": "ਡਰੋਨ ਨਿਗਰਾਨੀ",
+    "alerts": "ਚੇਤਾਵਨੀਆਂ",
+    "reports": "ਰਿਪੋਰਟਾਂ",
+    "settings": "ਸੈਟਿੰਗਜ਼"
+  },
+  "home": {
+    "hero_title": "ਸਮਾਰਟ ਖੇਤੀ,",
+    "hero_subtitle": "AI ਦੀ ਤਾਕਤ ਨਾਲ",
+    "hero_desc": "ਸਹੀ ਫਸਲ ਦੀ ਸਲਾਹ, ਮੌਸਮ ਅਧਾਰਤ ਸਿੰਚਾਈ, ਮੰਡੀ ਦੀ ਜਾਣਕਾਰੀ ਅਤੇ ਆਫ਼ਤਾਂ ਬਾਰੇ ਚੇਤਾਵਨੀਆਂ ਪ੍ਰਾਪਤ ਕਰੋ।",
+    "select_state": "ਰਾਜ ਚੁਣੋ",
+    "select_district": "ਜ਼ਿਲ੍ਹਾ ਚੁਣੋ",
+    "get_insights": "ਜਾਣਕਾਰੀ ਪ੍ਰਾਪਤ ਕਰੋ",
+    "quick_actions": "ਜਲਦੀ ਕਾਰਵਾਈਆਂ",
+    "crop_advisory": "ਫਸਲ ਸਲਾਹ",
+    "irrigation_plan": "ਸਿੰਚਾਈ ਯੋਜਨਾ",
+    "market_prices": "ਮੰਡੀ ਦੇ ਭਾਅ",
+    "weather_alert": "ਮੌਸਮ ਦੀ ਚੇਤਾਵਨੀ"
+  },
+  "dashboard": {
+    "title": "ਖੇਤ ਦਾ ਡੈਸ਼ਬੋਰਡ",
+    "subtitle": "ਤੁਹਾਡਾ ਖੇਤ ਇੱਕ ਨਜ਼ਰ ਵਿੱਚ",
+    "weather": "ਮੌਸਮ",
+    "market": "ਮੰਡੀ",
+    "alerts": "ਕਿਰਿਆਸ਼ੀਲ ਚੇਤਾਵਨੀਆਂ",
+    "water": "ਪਾਣੀ ਦੀ ਸਪਲਾਈ",
+    "days_left": "ਦਿਨ ਬਾਕੀ"
+  },
+  "weather": {
+    "title": "ਮੌਸਮ ਅਤੇ ਸਿੰਚਾਈ",
+    "current": "ਮੌਜੂਦਾ ਹਾਲਾਤ",
+    "forecast": "5-ਦਿਨਾਂ ਦੀ ਭਵਿੱਖਬਾਣੀ",
+    "irrigation_plan": "ਸਿੰਚਾਈ ਯੋਜਨਾ",
+    "water_planner": "ਪਾਣੀ ਯੋਜਨਾਬੰਦੀ",
+    "temp": "ਤਾਪਮਾਨ",
+    "humidity": "ਨਮੀ",
+    "rainfall": "ਬਾਰਿਸ਼",
+    "wind": "ਹਵਾ ਦੀ ਗਤੀ",
+    "irrigation_on": "ਸਿੰਚਾਈ ਚਾਲੂ",
+    "irrigation_off": "ਸਿੰਚਾਈ ਬੰਦ",
+    "irrigation_reduced": "ਘੱਟ ਸਿੰਚਾਈ",
+    "pond": "ਤਲਾਬ",
+    "borewell": "ਟਿਊਬਵੈੱਲ",
+    "rainwater": "ਮੀਂਹ ਦਾ ਪਾਣੀ",
+    "total_water": "ਕੁੱਲ ਉਪਲਬਧ",
+    "daily_usage": "ਰੋਜ਼ਾਨਾ ਵਰਤੋਂ",
+    "days_remaining": "ਬਾਕੀ ਦਿਨ",
+    "add_source": "ਪਾਣੀ ਦਾ ਸਰੋਤ ਸ਼ਾਮਲ ਕਰੋ"
+  },
+  "market": {
+    "title": "ਮੰਡੀ ਦੀ ਜਾਣਕਾਰੀ",
+    "nearby": "ਨੇੜਲੀਆਂ ਮੰਡੀਆਂ",
+    "price": "ਭਾਅ (₹/ਕੁਇੰਟਲ)",
+    "trend": "ਰੁਝਾਨ",
+    "best_market": "ਵੇਚਣ ਲਈ ਸਭ ਤੋਂ ਵਧੀਆ ਮੰਡੀ",
+    "compare": "ਭਾਅ ਦੀ ਤੁਲਨਾ",
+    "prediction": "ਭਾਅ ਦੀ ਭਵਿੱਖਬਾਣੀ",
+    "recommendation": "ਸਾਡੀ ਸਲਾਹ"
+  },
+  "crops": {
+    "title": "ਫਸਲ ਬਾਰੇ ਜਾਣਕਾਰੀ",
+    "recommend": "AI ਫਸਲ ਦੀ ਸਿਫਾਰਸ਼",
+    "soil_type": "ਮਿੱਟੀ ਦੀ ਕਿਸਮ",
+    "season": "ਮੌਸਮ",
+    "water_req": "ਪਾਣੀ ਦੀ ਲੋੜ",
+    "yield_expected": "ਸੰਭਾਵਿਤ ਝਾੜ",
+    "confidence": "ਭਰੋਸਾ",
+    "market_demand": "ਮਾਰਕੀਟ ਦੀ ਮੰਗ"
+  },
+  "monitoring": {
+    "title": "ਡਰੋਨ ਨਿਗਰਾਨੀ",
+    "active": "ਸਰਗਰਮ",
+    "idle": "ਵਿਹਲਾ",
+    "charging": "ਚਾਰਜ ਹੋ ਰਿਹਾ ਹੈ",
+    "battery": "ਬੈਟਰੀ",
+    "health_index": "ਫਸਲ ਸਿਹਤ ਸੂਚਕਾਂਕ",
+    "coverage": "ਕਵਰੇਜ ਖੇਤਰ",
+    "last_mission": "ਆਖਰੀ ਮਿਸ਼ਨ",
+    "dispatch": "ਡਰੋਨ ਭੇਜੋ",
+    "recall": "ਵਾਪਸ ਬੁਲਾਓ"
+  },
+  "alerts": {
+    "title": "ਆਫ਼ਤਾਂ ਦੀਆਂ ਚੇਤਾਵਨੀਆਂ",
+    "flood": "ਹੜ੍ਹ ਦੀ ਚੇਤਾਵਨੀ",
+    "drought": "ਸੋਕੇ ਦੀ ਚੇਤਾਵਨੀ",
+    "storm": "ਤੂਫ਼ਾਨ ਦੀ ਚੇਤਾਵਨੀ",
+    "pest": "ਕੀੜਿਆਂ ਦਾ ਹਮਲਾ",
+    "frost": "ਕੋਹਰੇ ਦੀ ਚੇਤਾਵਨੀ",
+    "heat": "ਗਰਮੀ ਦੀ ਲਹਿਰ",
+    "no_alerts": "ਕੋਈ ਸਰਗਰਮ ਚੇਤਾਵਨੀ ਨਹੀਂ",
+    "issued": "ਜਾਰੀ ਕੀਤਾ",
+    "expires": "ਮਿਆਦ ਪੁੱਗਦੀ ਹੈ",
+    "action": "ਲੋੜੀਂਦੀ ਕਾਰਵਾਈ"
+  },
+  "reports": {
+    "title": "ਰਿਪੋਰਟਾਂ ਅਤੇ ਵਿਸ਼ਲੇਸ਼ਣ",
+    "yield": "ਝਾੜ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ",
+    "water_usage": "ਪਾਣੀ ਦੀ ਵਰਤੋਂ",
+    "market_trends": "ਮਾਰਕੀਟ ਰੁਝਾਨ",
+    "download": "ਰਿਪੋਰਟ ਡਾਊਨਲੋਡ ਕਰੋ"
+  },
+  "settings": {
+    "title": "ਸੈਟਿੰਗਜ਼",
+    "language": "ਭਾਸ਼ਾ",
+    "location": "ਸਥਾਨ",
+    "notifications": "ਸੂਚਨਾਵਾਂ",
+    "farm_profile": "ਫਾਰਮ ਪ੍ਰੋਫਾਈਲ",
+    "save": "ਤਬਦੀਲੀਆਂ ਬਚਾਓ",
+    "saved": "ਤਬਦੀਲੀਆਂ ਸੁਰੱਖਿਅਤ ਕੀਤੀਆਂ ਗਈਆਂ!"
+  },
+  "common": {
+    "loading": "ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ...",
+    "error": "ਕੁਝ ਗਲਤ ਹੋ ਗਿਆ",
+    "retry": "ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ",
+    "close": "ਬੰਦ ਕਰੋ",
+    "save": "ਸੇਵ ਕਰੋ",
+    "cancel": "ਰੱਦ ਕਰੋ",
+    "submit": "ਜਮ੍ਹਾਂ ਕਰੋ",
+    "back": "ਪਿੱਛੇ",
+    "next": "ਅੱਗੇ",
+    "days": "ਦਿਨ",
+    "liters": "ਲਿਟਰ",
+    "acres": "ਏਕੜ",
+    "quintals": "ਕੁਇੰਟਲ"
+  },
+  "chatbot": {
+    "title": "ਐਗਰੀਬੋਟ",
+    "placeholder": "ਫਸਲਾਂ, ਮੌਸਮ, ਮਾਰਕੀਟ ਬਾਰੇ ਪੁੱਛੋ...",
+    "send": "ਭੇਜੋ",
+    "greeting": "ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ! ਮੈਂ AgriBot 🌱 ਖੇਤੀ ਬਾਰੇ ਕੁਝ ਵੀ ਪੁੱਛੋ!"
+  }
+}

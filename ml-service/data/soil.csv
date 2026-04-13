@@ -1,0 +1,25 @@
+state,district,soil_type,ph,nitrogen_kg_ha,phosphorus_kg_ha,potassium_kg_ha,organic_matter_pct,moisture_capacity_pct,texture
+Karnataka,Mysuru,red,6.2,180,45,210,1.8,38,loamy
+Karnataka,Mandya,alluvial,6.8,220,62,280,2.4,52,clay loam
+Karnataka,Hassan,red,5.9,165,38,195,1.5,35,sandy loam
+Karnataka,Tumakuru,red,6.1,172,42,205,1.7,36,loamy
+Karnataka,Belagavi,black,7.2,265,85,380,3.2,62,clay
+Karnataka,Shivamogga,laterite,5.5,148,32,175,1.2,42,silt loam
+Karnataka,Davangere,red,6.0,168,40,200,1.6,34,sandy loam
+Maharashtra,Pune,black,7.5,285,92,420,3.5,65,clay
+Maharashtra,Nashik,black,7.1,262,80,385,3.1,60,clay loam
+Maharashtra,Nagpur,black,7.4,278,88,405,3.3,63,clay
+Maharashtra,Aurangabad,black,7.3,270,85,395,3.2,62,clay
+Tamil Nadu,Chennai,alluvial,6.5,195,55,245,2.1,48,sandy loam
+Tamil Nadu,Coimbatore,red,6.2,178,48,218,1.9,38,loamy
+Tamil Nadu,Thanjavur,alluvial,7.0,235,70,295,2.6,55,clay loam
+Tamil Nadu,Madurai,red,6.3,182,50,225,1.8,36,loamy
+Andhra Pradesh,Vijayawada,alluvial,6.9,228,65,272,2.3,50,loamy
+Andhra Pradesh,Guntur,black,7.2,268,85,388,3.2,62,clay
+Uttar Pradesh,Lucknow,alluvial,7.1,245,72,298,2.5,58,silt loam
+Uttar Pradesh,Agra,alluvial,6.8,232,68,280,2.2,52,loamy
+Punjab,Amritsar,alluvial,7.3,258,82,318,2.8,60,silt loam
+Punjab,Ludhiana,alluvial,7.2,252,78,310,2.7,58,silt loam
+Rajasthan,Jaipur,arid,7.8,125,28,155,0.8,22,sandy
+Rajasthan,Jodhpur,arid,8.1,95,18,118,0.5,15,sandy
+Gujarat,Anand,alluvial,6.9,235,68,285,2.4,52,loamy

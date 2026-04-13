@@ -1,0 +1,13 @@
+{
+  "name": "agriagent-ml-service",
+  "version": "1.0.0",
+  "description": "Python Flask ML Service for AgriAgent",
+  "main": "app.py",
+  "scripts": {
+    "dev": "python app.py",
+    "start": "python app.py",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}

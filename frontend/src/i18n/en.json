@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "daily": "Daily Summary",
+    "crops": "Crop Insights",
+    "weather": "Weather & Irrigation",
+    "market": "Market Intelligence",
+    "monitoring": "Drone Monitoring",
+    "alerts": "Alerts",
+    "reports": "Reports",
+    "settings": "Settings"
+  },
+  "home": {
+    "hero_title": "Smart Farming,",
+    "hero_subtitle": "Powered by AI",
+    "hero_desc": "Get real-time crop recommendations, weather-driven irrigation, market intelligence and disaster alerts — all in one place.",
+    "select_state": "Select State",
+    "select_district": "Select District",
+    "get_insights": "Get Farm Insights",
+    "quick_actions": "Quick Actions",
+    "crop_advisory": "Crop Advisory",
+    "irrigation_plan": "Irrigation Plan",
+    "market_prices": "Market Prices",
+    "weather_alert": "Weather Alert"
+  },
+  "dashboard": {
+    "title": "Farm Dashboard",
+    "subtitle": "Your farm at a glance",
+    "weather": "Weather",
+    "market": "Market",
+    "alerts": "Active Alerts",
+    "water": "Water Supply",
+    "days_left": "days left"
+  },
+  "weather": {
+    "title": "Weather & Irrigation",
+    "current": "Current Conditions",
+    "forecast": "5-Day Forecast",
+    "irrigation_plan": "Irrigation Plan",
+    "water_planner": "Water Resource Planner",
+    "temp": "Temperature",
+    "humidity": "Humidity",
+    "rainfall": "Rainfall",
+    "wind": "Wind Speed",
+    "irrigation_on": "Irrigation ON",
+    "irrigation_off": "Irrigation OFF",
+    "irrigation_reduced": "Reduced Irrigation",
+    "pond": "Pond",
+    "borewell": "Borewell",
+    "rainwater": "Rainwater",
+    "total_water": "Total Available",
+    "daily_usage": "Daily Crop Usage",
+    "days_remaining": "Days Remaining",
+    "add_source": "Add Water Source"
+  },
+  "market": {
+    "title": "Market Intelligence",
+    "nearby": "Nearby Markets (Mandis)",
+    "price": "Price (₹/Quintal)",
+    "trend": "Trend",
+    "best_market": "Best Market to Sell",
+    "compare": "Price Comparison",
+    "prediction": "Price Prediction",
+    "recommendation": "Our Recommendation"
+  },
+  "crops": {
+    "title": "Crop Insights",
+    "recommend": "AI Crop Recommendation",
+    "soil_type": "Soil Type",
+    "season": "Season",
+    "water_req": "Water Requirement",
+    "yield_expected": "Expected Yield",
+    "confidence": "Confidence",
+    "market_demand": "Market Demand"
+  },
+  "monitoring": {
+    "title": "Drone Monitoring",
+    "active": "Active",
+    "idle": "Idle",
+    "charging": "Charging",
+    "battery": "Battery",
+    "health_index": "Crop Health Index",
+    "coverage": "Coverage Area",
+    "last_mission": "Last Mission",
+    "dispatch": "Dispatch Drone",
+    "recall": "Recall"
+  },
+  "alerts": {
+    "title": "Disaster Alerts",
+    "flood": "Flood Warning",
+    "drought": "Drought Alert",
+    "storm": "Storm Warning",
+    "pest": "Pest Attack",
+    "frost": "Frost Alert",
+    "heat": "Heat Wave",
+    "no_alerts": "No active alerts",
+    "issued": "Issued",
+    "expires": "Expires",
+    "action": "Action Required"
+  },
+  "reports": {
+    "title": "Reports & Analytics",
+    "yield": "Yield Analysis",
+    "water_usage": "Water Usage",
+    "market_trends": "Market Trends",
+    "download": "Download Report"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "location": "Location Preferences",
+    "notifications": "Notifications",
+    "farm_profile": "Farm Profile",
+    "save": "Save Changes",
+    "saved": "Changes saved!"
+  },
+  "common": {
+    "loading": "Loading…",
+    "error": "Something went wrong",
+    "retry": "Retry",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "back": "Back",
+    "next": "Next",
+    "days": "days",
+    "liters": "liters",
+    "acres": "acres",
+    "quintals": "quintals"
+  },
+  "chatbot": {
+    "title": "AgriBot",
+    "placeholder": "Ask me about crops, weather, market…",
+    "send": "Send",
+    "greeting": "Hello! I'm AgriBot 🌱 Ask me anything about farming, crop recommendations, weather, or market prices!"
+  }
+}

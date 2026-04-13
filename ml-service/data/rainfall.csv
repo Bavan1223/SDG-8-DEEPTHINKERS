@@ -1,0 +1,27 @@
+state,district,avg_annual_rainfall_mm,june_rainfall,july_rainfall,august_rainfall,september_rainfall,october_rainfall,year
+Karnataka,Mysuru,786,89,125,112,98,72,2024
+Karnataka,Mandya,892,95,148,138,110,82,2024
+Karnataka,Hassan,1050,112,178,162,130,95,2024
+Karnataka,Tumakuru,723,78,118,105,88,64,2024
+Karnataka,Belagavi,1182,195,248,228,168,92,2024
+Karnataka,Shivamogga,1842,320,388,362,280,152,2024
+Karnataka,Davangere,645,62,98,88,72,52,2024
+Maharashtra,Pune,722,112,148,125,98,58,2024
+Maharashtra,Nashik,812,145,168,148,118,72,2024
+Maharashtra,Nagpur,1185,182,248,222,165,88,2024
+Maharashtra,Aurangabad,682,98,138,118,88,52,2024
+Tamil Nadu,Chennai,1402,52,78,128,385,412,2024
+Tamil Nadu,Coimbatore,692,48,88,102,145,118,2024
+Tamil Nadu,Thanjavur,952,48,82,112,185,248,2024
+Andhra Pradesh,Vijayawada,1022,82,125,142,158,92,2024
+Andhra Pradesh,Guntur,912,68,105,128,148,82,2024
+Uttar Pradesh,Lucknow,908,152,228,212,148,42,2024
+Uttar Pradesh,Varanasi,1102,185,262,242,168,48,2024
+Punjab,Amritsar,682,45,148,172,82,18,2024
+Punjab,Ludhiana,716,48,155,178,88,22,2024
+Rajasthan,Jaipur,512,42,118,112,52,12,2024
+Rajasthan,Jodhpur,362,28,88,72,32,8,2024
+Gujarat,Ahmedabad,782,48,225,198,88,22,2024
+Gujarat,Anand,862,62,245,218,98,28,2024
+Madhya Pradesh,Bhopal,1142,162,248,228,155,48,2024
+West Bengal,Kolkata,1582,152,328,352,268,162,2024

@@ -1,0 +1,34 @@
+state,district,market,crop,price,min_price,max_price,date,unit
+Karnataka,Mysuru,Mysore APMC,Tomato,2800,2400,3200,2025-04-11,quintal
+Karnataka,Mandya,Mandya Mandi,Tomato,2650,2300,2900,2025-04-11,quintal
+Karnataka,Hassan,Hassan APMC,Tomato,2720,2500,3000,2025-04-11,quintal
+Karnataka,Tumakuru,Tumkur APMC,Tomato,2700,2400,2900,2025-04-11,quintal
+Karnataka,Belagavi,Belagavi Mandi,Tomato,2590,2200,2800,2025-04-11,quintal
+Karnataka,Mysuru,Mysore APMC,Rice,1900,1700,2100,2025-04-11,quintal
+Karnataka,Mandya,Mandya Mandi,Sugarcane,3200,3000,3400,2025-04-11,quintal
+Karnataka,Davangere,Davangere Mandi,Rice,1850,1700,2000,2025-04-11,quintal
+Karnataka,Hubli,Hubli APMC,Onion,1600,1400,1800,2025-04-11,quintal
+Karnataka,Mysuru,Mysore APMC,Potato,1900,1700,2100,2025-04-11,quintal
+Karnataka,Shivamogga,Shivamogga APMC,Arecanut,42000,38000,46000,2025-04-11,quintal
+Karnataka,Vijayapura,Vijayapura Mandi,Cotton,6200,5800,6600,2025-04-11,quintal
+Maharashtra,Pune,Pune APMC,Onion,1500,1300,1700,2025-04-11,quintal
+Maharashtra,Nashik,Nashik Mandi,Onion,1600,1400,1800,2025-04-11,quintal
+Maharashtra,Nashik,Nashik Mandi,Grapes,8000,7000,9500,2025-04-11,quintal
+Maharashtra,Solapur,Solapur Mandi,Pomegranate,12000,10000,15000,2025-04-11,quintal
+Maharashtra,Kolhapur,Kolhapur APMC,Soybean,4500,4200,4800,2025-04-11,quintal
+Maharashtra,Aurangabad,Aurangabad APMC,Cotton,6100,5700,6500,2025-04-11,quintal
+Tamil Nadu,Chennai,Koyambedu APMC,Tomato,3200,2800,3600,2025-04-11,quintal
+Tamil Nadu,Coimbatore,Coimbatore APMC,Banana,1800,1500,2100,2025-04-11,quintal
+Tamil Nadu,Thanjavur,Thanjavur Mandi,Rice,2000,1800,2200,2025-04-11,quintal
+Tamil Nadu,Salem,Salem APMC,Mango,5500,4800,6200,2025-04-11,quintal
+Tamil Nadu,Madurai,Madurai APMC,Coconut,2200,1900,2500,2025-04-11,quintal
+Andhra Pradesh,Vijayawada,Vijayawada APMC,Rice,1950,1750,2150,2025-04-11,quintal
+Andhra Pradesh,Guntur,Guntur Mandi,Chilli,18000,15000,22000,2025-04-11,quintal
+Andhra Pradesh,Kurnool,Kurnool Mandi,Groundnut,5600,5200,6000,2025-04-11,quintal
+Uttar Pradesh,Agra,Agra Mandi,Potato,1200,1000,1400,2025-04-11,quintal
+Uttar Pradesh,Lucknow,Lucknow APMC,Wheat,2150,2000,2300,2025-04-11,quintal
+Punjab,Amritsar,Amritsar Mandi,Wheat,2300,2100,2500,2025-04-11,quintal
+Punjab,Ludhiana,Ludhiana Mandi,Wheat,2280,2100,2450,2025-04-11,quintal
+Rajasthan,Jaipur,Jaipur Mandi,Mustard,5200,4800,5600,2025-04-11,quintal
+Gujarat,Anand,Anand Mandi,Cumin,22000,19000,25000,2025-04-11,quintal
+Gujarat,Surat,Surat APMC,Sugarcane,3100,2900,3300,2025-04-11,quintal

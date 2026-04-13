@@ -1,0 +1,30 @@
+state,district,crop,season,area_acres,yield_per_acre,total_production,rainfall_mm,temperature_avg,year
+Karnataka,Mysuru,Rice,kharif,5.5,28.2,155.1,786,26,2024
+Karnataka,Mysuru,Tomato,rabi,2.0,42.5,85.0,786,22,2024
+Karnataka,Mandya,Sugarcane,kharif,8.0,352.0,2816,892,27,2024
+Karnataka,Hassan,Coffee,rabi,3.5,8.2,28.7,1050,21,2024
+Karnataka,Belagavi,Soybean,kharif,4.0,12.8,51.2,1182,25,2024
+Karnataka,Tumakuru,Groundnut,kharif,3.0,14.5,43.5,723,28,2024
+Karnataka,Davangere,Cotton,kharif,6.0,12.2,73.2,645,30,2024
+Maharashtra,Pune,Onion,rabi,4.5,62.0,279,722,24,2024
+Maharashtra,Nashik,Grapes,rabi,2.0,82.0,164,812,22,2024
+Maharashtra,Nagpur,Orange,rabi,5.0,42.5,212,1185,25,2024
+Maharashtra,Aurangabad,Cotton,kharif,7.0,11.8,82.6,682,29,2024
+Tamil Nadu,Thanjavur,Rice,kharif,10.0,30.5,305,952,27,2024
+Tamil Nadu,Coimbatore,Banana,kharif,3.0,88.0,264,692,28,2024
+Tamil Nadu,Salem,Mango,summer,4.0,35.0,140,692,32,2024
+Tamil Nadu,Madurai,Turmeric,rabi,2.5,28.0,70,952,28,2024
+Andhra Pradesh,Guntur,Chilli,rabi,3.5,18.5,64.75,912,28,2024
+Andhra Pradesh,Kurnool,Groundnut,kharif,5.0,15.2,76,912,30,2024
+Andhra Pradesh,Vijayawada,Rice,kharif,8.0,29.5,236,1022,27,2024
+Uttar Pradesh,Lucknow,Wheat,rabi,12.0,24.5,294,908,18,2024
+Uttar Pradesh,Agra,Potato,rabi,6.0,82.0,492,908,16,2024
+Uttar Pradesh,Varanasi,Mustard,rabi,4.0,10.8,43.2,1102,17,2024
+Punjab,Amritsar,Wheat,rabi,15.0,26.5,397.5,682,18,2024
+Punjab,Ludhiana,Rice,kharif,10.0,31.2,312,716,28,2024
+Rajasthan,Jaipur,Mustard,rabi,8.0,9.5,76,512,20,2024
+Rajasthan,Jodhpur,Bajra,kharif,6.0,8.2,49.2,362,30,2024
+Gujarat,Anand,Groundnut,kharif,5.0,16.5,82.5,862,29,2024
+Gujarat,Surat,Sugarcane,kharif,7.0,348,2436,862,28,2024
+Madhya Pradesh,Bhopal,Soybean,kharif,6.0,13.5,81,1142,26,2024
+West Bengal,Kolkata,Rice,kharif,8.0,32.0,256,1582,28,2024
