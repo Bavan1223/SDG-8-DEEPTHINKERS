@@ -10,7 +10,7 @@ interface SummaryCardProps {
   value: string | number;
   subtitle?: string;
   icon: string;
-  trend?: 'up' | 'down' | 'neutral';
+  trend?: 'up' | 'down' | 'stable';
   trendValue?: string;
   color?: 'green' | 'blue' | 'amber' | 'red' | 'purple';
   className?: string;

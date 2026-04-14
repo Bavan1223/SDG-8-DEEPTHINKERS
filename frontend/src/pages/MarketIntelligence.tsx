@@ -9,20 +9,12 @@ import { useLanguage } from '../hooks/useLanguage';
 import { MarketChart } from '../components/charts/MarketChart';
 import { Select } from '../components/common/Input';
 import { Button } from '../components/common/Button';
-import { formatINR, trendColor, trendArrow, sleep } from '../utils/helpers';
+import { formatINR, trendColor, trendArrow } from '../utils/helpers';
 import { CROPS } from '../utils/constants';
 import { Loader } from '../components/common/Loader';
 import { fetchMarketPrices } from '../services/api';
 
 interface MandiPrice { market: string; district: string; distance: string; price: number; trend: 'up'|'down'|'stable'; change: number; }
-
-const MOCK_MANDIS: MandiPrice[] = [
-  { market: 'Mysore APMC',   district: 'Mysuru',    distance: '5 km',  price: 2800, trend: 'up',     change: 5.2  },
-  { market: 'Mandya Mandi',  district: 'Mandya',    distance: '42 km', price: 2650, trend: 'stable', change: 0.3  },
-  { market: 'Hassan APMC',   district: 'Hassan',    distance: '61 km', price: 2720, trend: 'up',     change: 2.1  },
-  { market: 'Chamarajnagar', district: 'Chamraj.',  distance: '80 km', price: 2590, trend: 'down',   change: -1.8 },
-  { market: 'Tumkur APMC',   district: 'Tumakuru',  distance: '95 km', price: 2700, trend: 'up',     change: 1.5  },
-];
 
 const PRICE_TREND = [
   { date: 'Jan', price: 2200, predicted: 2100 },
@@ -66,11 +58,11 @@ const MarketIntelligence: React.FC = () => {
       const basePrice = cStr === 'rice' ? 3200 : cStr === 'wheat' ? 2400 : cStr === 'sugarcane' ? 310 : cStr === 'cotton' ? 2500 : cStr === 'potato' ? 1900 : 2800;
       
       const dist = location.district || 'Local';
-      const fakeMandis = [
-        { market: `${dist} Main APMC`, district: dist, state: location.state || 'IN', crop: preferredCrop, price: Math.round(basePrice * 1.05), trend: 'up' as const, changePercent: 1.9, lastUpdated: new Date().toISOString() },
-        { market: `${dist} North Mandi`, district: dist, state: location.state || 'IN', crop: preferredCrop, price: Math.round(basePrice * 0.98), trend: 'down' as const, changePercent: -0.6, lastUpdated: new Date().toISOString() },
-        { market: `${dist} Farmer's Market`, district: dist, state: location.state || 'IN', crop: preferredCrop, price: Math.round(basePrice * 1.01), trend: 'stable' as const, changePercent: 2.0, lastUpdated: new Date().toISOString() },
-        { market: `Nearby Regional APMC`, district: 'Regional', state: location.state || 'IN', crop: preferredCrop, price: Math.round(basePrice * 1.00), trend: 'up' as const, changePercent: 0.2, lastUpdated: new Date().toISOString() }
+      const fakeMandis: MandiPrice[] = [
+        { market: `${dist} Main APMC`, district: dist, distance: '5 km', price: Math.round(basePrice * 1.05), trend: 'up' as const, change: 1.9 },
+        { market: `${dist} North Mandi`, district: dist, distance: '12 km', price: Math.round(basePrice * 0.98), trend: 'down' as const, change: -0.6 },
+        { market: `${dist} Farmer's Market`, district: dist, distance: '18 km', price: Math.round(basePrice * 1.01), trend: 'stable' as const, change: 2.0 },
+        { market: `Regional Hub APMC`, district: 'Regional', distance: '45 km', price: Math.round(basePrice * 1.00), trend: 'up' as const, change: 0.2 }
       ];
       setMandis(fakeMandis.sort((a, b) => b.price - a.price));
     } finally {

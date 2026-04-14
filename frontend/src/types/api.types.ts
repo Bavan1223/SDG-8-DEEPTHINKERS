@@ -19,6 +19,7 @@ export interface WeatherData {
   rainfall: number;            // mm expected today
   windSpeed: number;           // km/h
   condition: string;           // 'sunny' | 'cloudy' | 'rainy' | 'stormy'
+  visibility: number;          // km
   forecast: WeatherForecastDay[];
   lastUpdated: string;         // ISO timestamp
 }

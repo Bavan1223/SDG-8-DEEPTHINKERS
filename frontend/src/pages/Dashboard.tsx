@@ -130,7 +130,7 @@ const Dashboard: React.FC = () => {
         </div>
       ) : (
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
-          <SummaryCard title={t('dashboard.weather')} value={`${weather?.temperature}°C`} subtitle={weather?.condition} icon="🌡️" color="blue" trend="neutral" />
+          <SummaryCard title={t('dashboard.weather')} value={`${weather?.temperature}°C`} subtitle={weather?.condition} icon="🌡️" color="blue" trend="stable" />
           <SummaryCard 
             title={t('dashboard.market')}  
             value={prices.length > 0 ? formatINR(prices[0].price) : formatINR(2800)} 
