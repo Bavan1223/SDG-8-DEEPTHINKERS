@@ -6,7 +6,7 @@
     "dev": "ts-node-dev --respawn --transpile-only firebaseFunctions/index.ts",
     "seed": "ts-node scripts/seed.ts",
     "build": "tsc",
-    "start": "node dist/firebaseFunctions/index.js",
+    "start": "node dist/index.js",
     "lint": "eslint . --ext .ts"
   },
   "dependencies": {
