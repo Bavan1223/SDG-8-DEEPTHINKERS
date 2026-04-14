@@ -21,6 +21,7 @@ const MOCK_WEATHER: WeatherData = {
   location: 'Mysuru, Karnataka',
   temperature: 28, humidity: 65, rainfall: 2, windSpeed: 12,
   condition: 'cloudy',
+  visibility: 10,
   lastUpdated: new Date().toISOString(),
   forecast: [
     { date: 'Mon', minTemp: 22, maxTemp: 30, rainfall: 0,  condition: 'sunny' },
